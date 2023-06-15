@@ -10,20 +10,26 @@ package paquete3;
  * @author reroes
  */
 public class Ejecutor {
+
     public static void main(String[] args) {
-        
+
         // Creación de un objeto de tipo EstudianteDistancia
-        
         String nombre = "René";
         String apellido = "Elizalde";
         String identificacion = "110011";
         int edad = 36;
-        
-        EstudianteDistancia estDistancia = new EstudianteDistancia(nombre, 
+
+        EstudianteDistancia estDistancia = new EstudianteDistancia(nombre,
                 apellido, identificacion, edad);
-        
+
         System.out.println(estDistancia);
-                
+
+        // Creación de un objeto de tipo EstudiantePresencial
+        
+        EstudiantePresencial estPresencial = new EstudiantePresencial ("Carlos "
+                + "Daniel", "Mejia Febres", "1150631438", 19);
+        
+        System.out.println(estPresencial);
         
     }
 }

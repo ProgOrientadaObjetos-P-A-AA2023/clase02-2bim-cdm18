@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package paquete3;
-
 /**
  *
  * @author reroes
@@ -52,5 +51,8 @@ public class Ejecutor2 {
                 estDistancia.obtenerMatriculaDistancia());
      
         System.out.printf("%s\n", cadenaFinal2);
+        
+        
+        
     }
 }
